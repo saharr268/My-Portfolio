@@ -1,0 +1,468 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fafafa;
+    margin: 0;
+    text-align: center;
+    align-content: center;
+    font-family: "Poppins" , "Moon Dance", "Unbounded" ;
+}
+
+footer {
+    padding: 20px;
+    color: #FFFFFF;
+    background-color: #222222;
+}
+
+.contact a {
+color: #FCEFB4;
+text-align: center;
+font-weight: 500;
+text-decoration: none;
+padding: 10px;
+position: relative;
+top: 0;
+transition: top ease 0.5s;
+
+}
+
+.contact a:hover {
+color: #F9DC5C;
+top: -2px;
+}
+
+.topnav {
+background-color: #222222;
+text-align: center;
+display:block;
+border-style: none;
+border-radius: 100px;
+padding: 20px;
+margin: 10px;
+}
+
+.topnav a {
+color: #FFFFFF;
+border-style: none;
+border-radius: 8px;
+text-align: center;
+font-weight: 500;
+text-decoration: none;
+padding: 10px 20px;
+
+}
+
+.topnav a:hover {
+color: #F9DC5C;
+transition: 0.5s;
+
+}
+
+                        /*About Section Style*/
+
+.fa {
+  align-content: center;
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  border-style: none;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    background-color: #eec305;
+
+}
+
+.fa-facebook {
+  background: #F9DC5C;
+  color: white;
+}
+
+.fa-twitter {
+  background: #F9DC5C;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #F9DC5C;
+  color: white;
+}
+.fa-instagram {
+  background: #F9DC5C;
+  color: white;
+}
+.fa-github {
+  background: #F9DC5C;
+  color: white;
+}
+
+
+.main-sec{
+    text-align: center;
+    align-content: center;
+    color: #F9DC5C;
+    background-color: #ffffff;
+    border-style: none;
+    border-radius: 40px;
+    padding: 20px;
+}
+.main-sec h2{
+    color:#222222;
+}
+
+.work-cat {
+    color: #333333;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    padding: 8px 64px;
+    
+}
+.work-cat :hover {
+    transform: scale(1.12);
+    transition: 0.8s;
+}
+
+.category {
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    display: grid;
+    padding: 10px;
+
+}
+.work-cat img {
+    height: 220px;
+    width: 320px;
+    background-color: #ffffff;
+    border-style: none;
+    border-radius: 8px;
+}
+
+
+                                    
+                        /*About Page Style*/
+
+h2{
+    color: #222222;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    gap: 16px;
+    justify-content: center;
+
+}
+
+.left-side {
+    color: #333333;
+    text-align: left;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 0px 40px 40px 80px;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+.left-side #h2{
+    color: #eec305;
+    font-family: Unbounded;
+    font-weight: 700;
+    font-size: 40pt;
+    line-height: 48pt;
+}
+
+.left-side #h1{
+    font-family: Moon Dance;
+    font-weight: 500;
+    font-size:32pt;
+    line-height: 8pt;
+    color: #555555;
+}
+
+.right-side {
+    float: right;
+    vertical-align: middle;
+    padding: 20px 10px 20px 50px;
+}
+
+.right-side img{
+    height:95%;
+    width:75%;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+.work-edu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 50px;
+
+}
+.work-edu h2{
+   color: #F9DC5C;
+
+}
+
+.work {
+    text-align: left;
+    align-content: center;
+    color: #F9DC5C;
+    background-color: #FFFFFF;
+    border-style: none;
+    border-radius: 40px;
+    padding: 40px 40px;
+    box-shadow: 1px 1px 40px 2px #eeeeee;
+}
+
+.work-item {
+    display: grid;
+    row-gap: 0px;
+}
+
+#job {
+    width: 350px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 8px;
+    color: #333333;
+    line-height: 10px;
+    
+}
+
+
+.edu {
+    text-align: left;
+    align-content: center;
+    color: #F9DC5C;
+    background-color: #FFFFFF;
+    border-style: none;
+    border-radius: 40px;
+    padding: 40px 40px;
+    box-shadow: 1px 1px 40px 2px #eeeeee;
+}
+
+.edu-item {
+    display: grid;
+    row-gap: 0px;
+}
+
+#college {
+    width: 350px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 8px;
+    color: #333333;
+    line-height: 10px;
+}
+
+.work:hover, .edu:hover {
+    box-shadow: 3px 3px 40px 2px #F9DC5C;
+    transform: scale(1.05);
+    transition: 0.8s;
+}
+
+
+.portfolio{
+    text-align: center;
+    align-content: center;
+    color: #F9DC5C;
+    border-style: none;
+    border-radius: 40px;
+    padding: 20px;
+    line-height: 64px;
+}
+
+.work-sample {
+    color: #F9DC5C;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    margin-bottom: 24px;
+    padding: 64px;
+    
+}
+
+#sample {
+    padding: 16px 10px;
+    width: 320px;
+    background-color: #FFFFFF;
+    border-style: none;
+    border-radius: 16px;
+    line-height: 2px;
+    position:relative;
+    top:0;
+    box-shadow: 1px 1px 40px 2px #eeeeee;
+}
+#sample-cta{
+    color: #FFFFFF;
+    background-color: #eec305;
+    font-size: small;
+    text-decoration: none;
+    padding: 10px 120px;
+    border-radius: 8px;
+    border-style: none;
+
+}
+#sample:hover {
+    top:-10px;
+    transition: 0.8s;
+}
+
+#sample p {
+    margin-left:8px;
+    font-size: small;
+    text-align: left;
+    line-height: 18px;
+    color: #333333;
+}
+#sample h4 {
+    padding: 2px 8px;
+    color: #222222;
+    text-align: left;
+    font-family: "Unbounded";
+    font-size: 12pt;
+    width:310px;
+}
+.work-sample img {
+    background-color: #ffffff;
+    height: 220px;
+    width: 310px;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.form{
+    margin: 40px;
+    text-align: left;
+    justify-content: Center;
+    justify-self: center;
+    background-color: #ffffff;
+    border-style: none;
+    border-radius: 24px;
+    width: 80%;
+    padding: 30px;
+    line-height: 20px;
+    box-shadow: 1px 1px 40px 2px #dddddd;
+}
+.form label {
+    text-align: left;
+    font-size: small;
+    justify-content: left;
+    color: #333333;
+}
+.form h2 {
+    color: #eec305;
+}
+
+#name {
+    text-align: left;
+    background-color: #eeeeee;
+    height: 16px;
+    width:90%;
+    border-style: none;
+    border-radius: 8px;
+    padding: 16px;
+
+}
+
+#message {
+    font-family: Poppins;
+    text-align: left;
+    background-color: #eeeeee;
+    height: 80px;
+    width: 90%;
+    border-style: none;
+    border-radius: 8px;
+    padding: 16px;
+
+}
+#cta {
+    text-align: Center;
+    justify-items: center;
+    color: #FFFFFF;
+    background-color: #eec305;
+    height: 48px;
+    width: 100%;
+    border-style: none;
+    border-radius: 8px;
+    padding: 16px;
+    vertical-align: middle;
+}
+#cta:hover {
+    background-color: #222222;
+    
+}
+
+.skill-sec{
+background-color: #FFFFFF;
+padding-bottom: 40px;
+margin-top: 16px;
+
+
+}
+.skill{
+    background-color: #FFFFFF;
+    display: inline-flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    gap:16px;
+    justify-items: center;
+}
+
+#skill-1{
+    border-style: none;
+    border-radius: 8px;
+    padding:2px 20px;
+    color: #222222;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 40px 4px #dddddd;
+}
+#skill-2{
+    border-style: none;
+    border-radius: 8px;
+    padding:2px 20px;
+    color: #d8b100;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 40px 2px #dddddd;
+}
+.contact-me{
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0px;
+    justify-items: center;
+    padding: 10px 40px;
+}
+
+.contact-me .left-side img{
+     height: 100%;
+     width: 85%;
+     padding: 20px 0px 0px 64px;
+}
+
+.contact-me .right-side{
+     width: 100%;
+     float: right;
+     justify-content: center;
+}
+.contact-me .left-side{
+     width: 100%;
+     float: left;
+     justify-content: center;
+     justify-items: center;
+}
